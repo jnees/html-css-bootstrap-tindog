@@ -1,0 +1,173 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", Bold;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.white-section{
+  background-color: #fff;
+}
+
+.color-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+  }
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navitem{
+  padding: 0 18px 0 18px;
+}
+.navlink{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  min-height: 100vh;
+  text-align: left;
+}
+
+/* Download Buttons */
+.download-btn{
+  margin: 5% 5% 10% 3%;
+}
+
+/* Title Image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Feature Descriptions and Icons */
+#features{
+  position: relative;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-desc{
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+.feature-icon{
+  color: #ef8172;
+  font-size: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-image{
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Plan Section */
+#pricing{
+  padding: 100px;
+}
+
+.plan-name{
+  font-size: 1.5rem;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.price{
+  display: inline;
+}
+
+/* Footer */
+#footer{
+  background-color: #fff;
+}
+
+.social-btn{
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.copyright{
+  color: #8f8f8f;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Media Queries */
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    z-index: 0;
+    transform:rotate(0);
+    margin: 5%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .download-btn {
+    margin: 20px;
+  }
+}
